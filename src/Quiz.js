@@ -11,15 +11,20 @@ class Quiz extends Component {
      
         return (
             <div>
-                <div className="QuizQuestion">{quizData.quiz_questions[this.state.quiz_position].instruction_text}</div>
-                <div className="QuizQuestions">
+                <div className="QuizQuestion">{quizData.quiz_questions[0].instruction_text}</div>
+                
+            </div>
+        )
+
+        /**
+         * <div className="QuizQuestions">
                 <ol>
                         <li>{quizData.quiz_questions[0].instruction_text}</li>
                         <li>{quizData.quiz_questions[1].instruction_text}</li>
                   
-                    </ol></div>
-            </div>
-        )
+                    </ol>
+                </div>
+         */
 
 
     }

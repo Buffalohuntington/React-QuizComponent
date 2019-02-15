@@ -2,11 +2,8 @@ import React, { Component } from 'react'
 import './App.css'
 import Quiz  from './Quiz.js'
 
-
-class App extends Component {
-  render() {
-    return <Quiz />  
-    /*
+ /* NOTES: 
+ ----------------------------
     // apparently spacing matters
 
     return <Quiz / > // works
@@ -16,6 +13,10 @@ class App extends Component {
     return 
          <Quiz /> // fails
     */
+class App extends Component {
+  render() {
+    return <Quiz />  
+   
     
   }
 }
